@@ -1,0 +1,19 @@
+{
+  "name": "hola-htmx",
+  "version": "1.0.0",
+  "description": "Example for my blog",
+  "type": "module",
+  "main": "main.ts",
+  "types": "main.ts",
+  "scripts": {
+    "dev": "tsx watch main.tsx",
+    "start": "tsx main.tsx"
+  },
+  "author": "Fernando Berti <me@berti.sh>",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.3.4",
+    "hono": "^3.11.11",
+    "tsx": "^4.7.0"
+  }
+}
